@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/6/15 21:56:31。
+     1>项目“E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\compiler\compiler.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\Debug\compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\Debug\compiler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\Debug\compiler.lib" /MACHINE:X86 Debug\compiler.obj
+         Debug\generate.obj
+         Debug\grammar.obj
+         Debug\middlecode.obj
+         Debug\stdafx.obj
+         compiler.vcxproj -> E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\Debug\compiler.exe
+     1>已完成生成项目“E:\北航\课程资料\编译技术\马瑶华编译大作业\newcompiler\compiler\compiler.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.24

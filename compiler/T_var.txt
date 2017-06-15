@@ -1,0 +1,15 @@
+var w, x: integer ;
+
+function fac (var num : integer ): integer;
+ begin
+  num:=num+20;
+  fac:=num;
+ end;
+
+
+begin
+ x:=1;
+ w:=fac(x);
+write(w);
+end
+.

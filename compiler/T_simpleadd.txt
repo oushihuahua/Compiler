@@ -1,0 +1,6 @@
+const a = 10, ch='3';
+var w, x, num, y, z, n: integer ;
+begin
+ w:=1+2;
+end
+.

@@ -1,0 +1,9 @@
+const ch='a';
+var t : array[3] of char ;
+
+begin
+ch:=t[1];
+
+write(t[1]);
+end
+.

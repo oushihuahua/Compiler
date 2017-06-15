@@ -1,0 +1,56 @@
+const a = 10, ch='3';
+var w, x, num, y, z, n: integer ;
+t : array[10] of char ;
+procedure print ( var x : integer );
+ begin
+  write( "*", x );
+ end;
+
+function f ( x:integer):integer;
+var j,z:integer;
+	procedure null(qq,o :integer);
+	begin
+	qq:=0;
+	end;
+begin
+if n=1 then
+f := 1
+else if n=2 then
+f := 2
+else f := f(-1+n) +f(n-2)
+end;
+
+function fac (num : integer ): integer;
+ begin
+  if num = 0 then
+  begin
+   fac := 1 ;
+   write( "1" ) ;
+  end
+  else
+  begin
+   fac := num * fac (num-1 );
+   print ( num );
+  end
+ end;
+
+begin
+read(num);
+if num<=20
+then
+begin
+  w := fac(num);
+  write("=",w);
+  if num = 0
+  then write ("Should be 1.")
+  else
+  write ("Any number.");
+end
+else
+write("Too big.");
+y := 0;
+for z :=10 downto 0 do
+ y := y + 1;
+write("y=",y);
+end
+.

@@ -1,0 +1,11 @@
+const a = 10, ch='A';
+var w, x, num, y, z, n: integer ;
+begin
+ w:=1;
+ write("This is n");
+ write(w);
+ write(a);
+ write(ch);
+ write(30+80);
+end
+.

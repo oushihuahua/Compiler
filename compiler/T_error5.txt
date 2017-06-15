@@ -1,0 +1,9 @@
+const ch='a';
+var t : array[3] ;
+
+begin
+t[0]:=ch;
+
+write(t[0]);
+end
+.

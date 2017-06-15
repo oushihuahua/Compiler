@@ -1,0 +1,13 @@
+const a = 10, ch='3';
+var w, x, num, y, z, n: integer ;
+t : array[10] of char ;
+
+begin
+read(num);
+if num<=20
+then
+write ("Cool enough")
+else
+write ("too big")
+end
+.

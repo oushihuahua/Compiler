@@ -1,0 +1,36 @@
+const a = 10, ch='3';
+var w, x, num, y, z, n: integer ;
+t : array[10] of char ;
+
+function fac (num : integer ): integer;
+ begin
+  if num = 0 then
+  begin
+   fac := 1 ;  
+  end
+  else
+  begin
+   write( num ) ;
+   write( "*" ) ;
+   fac := num * fac (num-1 );
+  end
+ end;
+
+
+begin
+read(num);
+if num<=20
+then
+begin
+  w := fac;
+  write("\n");
+  write("result=",w);
+  if num = 0
+  then write ("Should be 1.")
+  else
+  write ("Any number.");
+end
+else
+write("Too big.");
+end
+.

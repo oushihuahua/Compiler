@@ -1,0 +1,21 @@
+var h,v: integer ;
+function fac : integer;
+		procedure k1;
+		begin
+		h:=h-1;		
+		end;
+		procedure k2;
+		begin
+		k1;
+		end;
+ begin
+   k2;
+   fac:=1;
+ end;
+
+begin
+h:=100;
+v:=fac;
+write("\n null=",h);
+end
+.

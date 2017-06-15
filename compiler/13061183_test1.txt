@@ -1,0 +1,54 @@
+const a = 10,ch='4';
+var w, x, num, y, z, n: integer ;
+t : array[10] of char ;
+procedure print ( var x : integer );
+ begin
+  write( "*", x );
+ end;
+
+procedure f ( x:integer);
+begin
+if n=1 then
+f := 1
+else if n=2 then
+f := 2
+else f := f(-1+n) +f(n-2)
+end;
+
+function fac ( var num : integer ): integer;
+ begin
+  if num = 0 then
+  begin
+   fac := 1 ;
+   write( "1" ) ;
+  end
+  else
+  begin
+   fac := num * fac (num-1 );
+   print ( num );
+  end
+ end;
+
+begin
+read(num);
+if num<=20
+then
+begin
+  w := fac(num);
+  write("=",w);
+  if num = 0
+  then write ("should be 1.")
+  else
+  write ("any number.");
+end
+else
+write("too big.");
+y := 0;
+for z :=10 downto 0 do
+ y := y + 1;
+write("y=",y);
+do
+y := -1+y
+while y>0;
+end
+.

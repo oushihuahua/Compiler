@@ -1,0 +1,14 @@
+var w, x, num, y, z, n: integer ;
+
+function fac (num : integer ): integer;
+ begin
+  num:=num+3;
+  fac:=num;
+ end;
+
+
+begin
+ w:=fac(250);
+write(w);
+end
+.

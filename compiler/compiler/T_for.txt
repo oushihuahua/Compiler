@@ -1,0 +1,10 @@
+const a = 10, ch='3';
+var w, x, num, y, z, n: integer ;
+
+begin
+read(y);
+for z :=10 downto 0 do
+ y := y + 1;
+write("y=",y);
+end
+.

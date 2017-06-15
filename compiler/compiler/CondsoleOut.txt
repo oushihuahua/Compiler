@@ -1,0 +1,38 @@
+1 CONSTSYM const
+2 IDEN a
+3 EQL =
+4 NUMBER 10
+It is a number.这是个数字（正）
+5 COMMA ,
+It is a constnumber definition.这是个常量定义
+6 IDEN ch
+7 EQL =
+8 APOSCHARAC '3'
+It is a Apos Chracter.这是个字符
+9 SEMICOLON ;
+10 VARSYM var
+It is a consts definition part.这是个常量说明部分
+11 IDEN w
+12 COMMA ,
+13 IDEN x
+14 COMMA ,
+15 IDEN num
+16 COMMA ,
+17 IDEN y
+18 COMMA ,
+19 IDEN z
+20 COMMA ,
+21 IDEN n
+22 COLON :
+23 INTSYM integer
+24 SEMICOLON ;
+It is a variables definition.这是个类型说明25 BEGINSYM begin
+It is a variables definiton part.这是个变量说明部分
+26 IDEN w
+27 EQL =
+This is a sentence.这是一个语句
+error 1: 第4行:单引号中只允许出现一个字符
+28 NUMBER 1
+This is a combo sentence.这是一个复合语句
+It is a sub procedure.这是个分程序
+error 1: 第4行:单引号中只允许出现一个字符
